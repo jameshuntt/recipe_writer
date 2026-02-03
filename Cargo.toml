@@ -1,0 +1,13 @@
+[package]
+name = "recipe_writer"
+version = "0.1.0"
+edition = "2024"
+
+license = "MIT OR Apache-2.0"
+description = "Builder kit for the recipe crate"
+
+authors = ["James Hunt <jameshuntdevelopment@gmail.com>"]
+repository = "https://github.com/jameshuntt/recipe_writer"
+
+
+[dependencies]
