@@ -1,13 +1,17 @@
 [package]
 name = "recipe_writer"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 
 license = "MIT OR Apache-2.0"
-description = "Builder kit for the recipe crate"
+description = "Builder kit for the recipe crate: dependent recipes, path manifests, packet and transfer plans, and QPACK/Huffman decoders."
 
-authors = ["James Hunt <jameshuntdevelopment@gmail.com>"]
+authors = ["James Hunt <james@1o.business>"]
 repository = "https://github.com/jameshuntt/recipe_writer"
+readme = "README.md"
 
 
 [dependencies]
+recipe = { path = "../recipe", version = "0.1.3" }
+abut = { version = "0.1.3", features = ["ring-heapless"] }
+scope = "0.1.2"
